@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MonObj } from './util/MonObj';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Angular';
+  passVar:any = { val1:'valeur de test 11', val2:'autre valeur de test (2)'};
 }
